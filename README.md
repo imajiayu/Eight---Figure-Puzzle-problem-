@@ -2,7 +2,7 @@
 
 ### 1950509 马家昱
 
-![avatar](./3.png)
+![avatar](./screenshots.png)
 
 ## 问题描述
 
