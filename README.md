@@ -2,13 +2,13 @@
 
 ### 1950509 马家昱
 
-![avatar](./screenshots.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/3.png)
 
 ## 问题描述
 
 在九宫格中放入0~8共九个数字，0表示空格，其余数字可以与空格交换位置。给定初始状态与目标状态，求解中间步骤与需要的最小步数。
 
-![avatar](./1.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/1.png)
 
 ## 求解思路：
 ### 问题的可解性
@@ -34,7 +34,7 @@ $G(n)$表示当前节点到初始节点的距离，$H(n)$表示当前节点到�
 * $G(n)$表示与初始节点的距离。因此，设初始节点的G为0，则之后搜索到的每一个节点的G值均为其父节点的G值+1。
 * $H(n)$表示与目标节点的距离。首先尝试使用当前节点与目标节点对应位置数字不同的个数为$H(n)$值，发现收敛速度过慢。改进后使用对应数字的距离之和作为$H(n)$值。如图所示,两个"1"之间的距离为2，而"0"之间的距离为3。
 
-![avatar](./1.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/1.png)
 
 ## 实现代码
 ```py
@@ -377,24 +377,24 @@ app.MainLoop()
 
 使用wxpython首先GUI界面，效果如下：
 
-![avatar](./3.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/3.png)
 
 * 自定义或随机初始化状态
 
-![avatar](./4.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/4.png)
 
 存在错误输入检测
 
-![avatar](./7.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/7.png)
 
 * 开始计算，输出时间和步数
 
-![avatar](./5.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/5.png)
 
 * 动态演示
 
-![avatar](./6.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/6.png)
   
 某一实例的搜索过程如下：
 
-![avatar](./2.png)
+![avatar](https://github.com/imajiayu/Eight-Figure-Puzzle-problem/blob/main/screenshots/2.png)
